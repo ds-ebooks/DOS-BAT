@@ -1,0 +1,503 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>2-FOR命令中的变量 | DOS批处理教程</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../3-批处理中的变量/index.html" />
+    
+    
+    <link rel="prev" href="../2-FOR命令详解/1-FOR命令中的参数.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="2.2"
+        data-chapter-title="2-FOR命令中的变量"
+        data-filepath="2-FOR命令详解/2-FOR命令中的变量.md"
+        data-basepath=".."
+        data-revision="Fri Jul 27 2018 16:17:58 GMT+0800 (中国标准时间)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="1-批处理基础/index.html">
+            
+                
+                    <a href="../1-批处理基础/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        1-批处理基础
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="1-批处理基础/1-常用批处理内部命令简介.html">
+            
+                
+                    <a href="../1-批处理基础/1-常用批处理内部命令简介.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        1-常用批处理内部命令简介
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="1-批处理基础/2-常用特殊符号.html">
+            
+                
+                    <a href="../1-批处理基础/2-常用特殊符号.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        2-常用特殊符号
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="2-FOR命令详解/index.html">
+            
+                
+                    <a href="../2-FOR命令详解/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        2-FOR命令详解
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="2-FOR命令详解/1-FOR命令中的参数.html">
+            
+                
+                    <a href="../2-FOR命令详解/1-FOR命令中的参数.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        1-FOR命令中的参数
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2" data-path="2-FOR命令详解/2-FOR命令中的变量.html">
+            
+                
+                    <a href="../2-FOR命令详解/2-FOR命令中的变量.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        2-FOR命令中的变量
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="3-批处理中的变量/index.html">
+            
+                
+                    <a href="../3-批处理中的变量/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        3-批处理中的变量
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="3-批处理中的变量/1-系统变量.html">
+            
+                
+                    <a href="../3-批处理中的变量/1-系统变量.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        1-系统变量
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="3-批处理中的变量/2-自定义变量.html">
+            
+                
+                    <a href="../3-批处理中的变量/2-自定义变量.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        2-自定义变量
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="4-SET命令详解/index.html">
+            
+                
+                    <a href="../4-SET命令详解/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        4-SET命令详解
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="5-IF命令讲解/index.html">
+            
+                
+                    <a href="../5-IF命令讲解/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        5-IF命令讲解
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="6-DOS编程高级技巧/index.html">
+            
+                
+                    <a href="../6-DOS编程高级技巧/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        6-DOS编程高级技巧
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >DOS批处理教程</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h2 id="22-for&#x547D;&#x4EE4;&#x4E2D;&#x7684;&#x53D8;&#x91CF;">2.2. FOR&#x547D;&#x4EE4;&#x4E2D;&#x7684;&#x53D8;&#x91CF;</h2>
+<p>&#x5148;&#x628A;FOR&#x7684;&#x53D8;&#x91CF;&#x5168;&#x90E8;&#x5217;&#x51FA;&#x6765;&#xFF1A;</p>
+<ol>
+<li><a href="#1-i">~I</a> &#x5220;&#x9664;&#x4EFB;&#x4F55;&#x5F15;&#x53F7;(&quot;)&#xFF0C;&#x6269;&#x5C55; %I</li>
+<li><a href="#2-fi">%~fI</a> &#x5C06; %I &#x6269;&#x5C55;&#x5230;&#x4E00;&#x4E2A;&#x5B8C;&#x5168;&#x5408;&#x683C;&#x7684;&#x8DEF;&#x5F84;&#x540D;</li>
+<li><a href="#3-di">%~dI</a> &#x4EC5;&#x5C06; %I &#x6269;&#x5C55;&#x5230;&#x4E00;&#x4E2A;&#x9A71;&#x52A8;&#x5668;&#x53F7;</li>
+<li><a href="#4-pi">%~pI</a> &#x4EC5;&#x5C06; %I &#x6269;&#x5C55;&#x5230;&#x4E00;&#x4E2A;&#x8DEF;&#x5F84;</li>
+<li><a href="#5-ni">%~nI</a> &#x4EC5;&#x5C06; %I &#x6269;&#x5C55;&#x5230;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x540D;</li>
+<li><a href="#6-xi">%~xI</a> &#x4EC5;&#x5C06; %I &#x6269;&#x5C55;&#x5230;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x6269;&#x5C55;&#x540D;</li>
+<li><a href="#7-si">%~sI</a> &#x6269;&#x5C55;&#x7684;&#x8DEF;&#x5F84;&#x53EA;&#x542B;&#x6709;&#x77ED;&#x540D;</li>
+<li><a href="#8-ai">%~aI</a> &#x5C06; %I &#x6269;&#x5C55;&#x5230;&#x6587;&#x4EF6;&#x7684;&#x6587;&#x4EF6;&#x5C5E;&#x6027;</li>
+<li><a href="#9-ti">%~tI</a> &#x5C06; %I &#x6269;&#x5C55;&#x5230;&#x6587;&#x4EF6;&#x7684;&#x65E5;&#x671F;/&#x65F6;&#x95F4;</li>
+<li><a href="#10-zi">%~zI</a> &#x5C06; %I &#x6269;&#x5C55;&#x5230;&#x6587;&#x4EF6;&#x7684;&#x5927;&#x5C0F;</li>
+<li><a href="#11-pathi">%~$PATH:I</a> &#x67E5;&#x627E;&#x5217;&#x5728;&#x8DEF;&#x5F84;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x7684;&#x76EE;&#x5F55;&#xFF0C;&#x5E76;&#x5C06; %I &#x6269;&#x5C55;&#x5230;&#x627E;&#x5230;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x5B8C;&#x5168;&#x5408;&#x683C;&#x7684;&#x540D;&#x79F0;&#x3002;&#x5982;&#x679C;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x540D;&#x672A;&#x88AB;&#x5B9A;&#x4E49;&#xFF0C;&#x6216;&#x8005;&#x6CA1;&#x6709;&#x627E;&#x5230;&#x6587;&#x4EF6;&#xFF0C;&#x6B64;&#x7EC4;&#x5408;&#x952E;&#x4F1A;&#x6269;&#x5C55;&#x5230;&#x7A7A;&#x5B57;&#x7B26;&#x4E32;</li>
+</ol>
+<p>&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x6BCF;&#x884C;&#x90FD;&#x6709;&#x4E00;&#x4E2A;&#x5927;&#x5199;&#x5B57;&#x6BCD;&#x201C;I&#x201D;,&#x8FD9;&#x4E2A;I&#x5176;&#x5B9E;&#x5C31;&#x662F;&#x6211;&#x4EEC;&#x5728;FOR&#x5E26;&#x5165;&#x7684;&#x53D8;&#x91CF;,&#x6211;&#x4EEC;FOR&#x8BED;&#x53E5;&#x4EE3;&#x5165;&#x7684;&#x53D8;&#x91CF;&#x540D;&#x662F;&#x4EC0;&#x4E48;,&#x8FD9;&#x91CC;&#x5C31;&#x5199;&#x4EC0;&#x4E48;.</p>
+<p>&#x6BD4;&#x5982;:</p>
+<pre><code>FOR /F %%z IN (&apos;set&apos;) DO @echo %%z
+</code></pre><p>&#x8FD9;&#x91CC;&#x6211;&#x4EEC;&#x4EE3;&#x5165;&#x7684;&#x53D8;&#x91CF;&#x540D;&#x662F;z&#x90A3;&#x4E48;&#x6211;&#x4EEC;&#x5C31;&#x8981;&#x628A;&#x90A3;&#x4E2A;I&#x6539;&#x6210;z&#xFF0C;&#x4F8B;&#x5982;<code>%~fI</code>&#x6539;&#x4E3A;<code>%~fz</code>
+&#x81F3;&#x4E8E;&#x524D;&#x9762;&#x7684;<code>%~p</code>&#x8FD9;&#x6837;&#x7684;&#x5185;&#x5BB9;&#x5C31;&#x662F;&#x8BED;&#x6CD5;&#x4E86;&#xFF01;</p>
+<h3 id="1-i">1. ~I</h3>
+<p>&#x5220;&#x9664;&#x4EFB;&#x4F55;&#x5F15;&#x53F7;(&quot;)&#xFF0C;&#x6269;&#x5C55; %I</p>
+<p>&#x8FD9;&#x4E2A;&#x53D8;&#x91CF;&#x7684;&#x4F5C;&#x7528;&#x5C31;&#x5982;&#x4ED6;&#x7684;&#x8BF4;&#x660E;&#xFF0C;&#x5220;&#x9664;&#x5F15;&#x53F7;&#xFF01;</p>
+<p>&#x6211;&#x4EEC;&#x6765;&#x770B;&#x8FD9;&#x4E2A;&#x4F8B;&#x5B50;&#xFF1A;</p>
+<p>&#x9996;&#x5148;&#x5EFA;&#x7ACB;&#x4E34;&#x65F6;&#x6587;&#x4EF6;temp.txt&#xFF0C;&#x5185;&#x5BB9;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>&quot;1111
+&quot;2222&quot;
+3333&quot;
+&quot;4444&quot;44
+&quot;55&quot;55&quot;55
+</code></pre><p>&#x5EFA;&#x7ACB;&#x4E00;&#x4E2A;BAT&#x6587;&#x4EF6;&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>@echo off
+echo ^&quot;1111&gt;temp.txt
+echo &quot;2222&quot;&gt;&gt;temp.txt
+echo 3333^&quot;&gt;&gt;temp.txt
+echo &quot;4444&quot;44&gt;&gt;temp.txt
+echo ^&quot;55&quot;55&quot;55&gt;&gt;temp.txt
+rem &#x4E0A;&#x9762;&#x5EFA;&#x7ACB;&#x4E34;&#x65F6;&#x6587;&#x4EF6;&#xFF0C;&#x6CE8;&#x610F;&#x4E0D;&#x6210;&#x5BF9;&#x7684;&#x5F15;&#x53F7;&#x8981;&#x52A0;&#x8F6C;&#x4E49;&#x5B57;&#x7B26;^&#xFF0C;&#x91CD;&#x5B9A;&#x5411;&#x7B26;&#x53F7;&#x524D;&#x4E0D;&#x8981;&#x7559;&#x7A7A;&#x683C;
+FOR /F &quot;delims=&quot; %%i IN (temp.txt) DO echo %%~i
+pause
+del temp.txt
+</code></pre><p>&#x6267;&#x884C;&#x540E;&#xFF0C;&#x6211;&#x4EEC;&#x770B;CMD&#x7684;&#x56DE;&#x663E;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>1111      #&#x5B57;&#x7B26;&#x4E32;&#x524D;&#x7684;&#x5F15;&#x53F7;&#x88AB;&#x5220;&#x9664;&#x4E86;
+2222      #&#x5B57;&#x7B26;&#x4E32;&#x9996;&#x5C3E;&#x7684;&#x5F15;&#x53F7;&#x90FD;&#x88AB;&#x5220;&#x9664;&#x4E86;
+3333&quot;     #&#x5B57;&#x7B26;&#x4E32;&#x524D;&#x65E0;&#x5F15;&#x53F7;&#xFF0C;&#x540E;&#x9762;&#x7684;&#x5F15;&#x53F7;&#x4FDD;&#x7559;
+4444&quot;44   #&#x5B57;&#x7B26;&#x4E32;&#x524D;&#x9762;&#x7684;&#x5F15;&#x53F7;&#x5220;&#x9664;&#x4E86;&#xFF0C;&#x800C;&#x4E2D;&#x95F4;&#x7684;&#x5F15;&#x53F7;&#x4FDD;&#x7559;
+55&quot;55&quot;55  #&#x5B57;&#x7B26;&#x4E32;&#x524D;&#x9762;&#x7684;&#x5F15;&#x53F7;&#x5220;&#x9664;&#x4E86;&#xFF0C;&#x800C;&#x4E2D;&#x95F4;&#x7684;&#x5F15;&#x53F7;&#x4FDD;&#x7559;
+&#x8BF7;&#x6309;&#x4EFB;&#x610F;&#x952E;&#x7EE7;&#x7EED;...
+</code></pre><p>&#x548C;&#x4E4B;&#x524D;temp.txt&#x4E2D;&#x7684;&#x5185;&#x5BB9;&#x5BF9;&#x6BD4;&#x4E00;&#x4E0B;&#xFF0C;&#x6211;&#x4EEC;&#x4F1A;&#x53D1;&#x73B0;&#x7B2C;1&#x3001;2&#x3001;4&#x3001;5&#x884C;&#x7684;&#x5F15;&#x53F7;&#x90FD;&#x6D88;&#x5931;&#x4E86;&#xFF0C;&#x8FD9;&#x5C31;&#x662F;&#x5220;&#x9664;&#x5F15;&#x53F7;~i&#x7684;&#x4F5C;&#x7528;&#x4E86;&#xFF01;</p>
+<p>&#x5220;&#x9664;&#x5F15;&#x53F7;&#x89C4;&#x5219;&#x5982;&#x4E0B;&#xFF1A;</p>
+<ol>
+<li>&#x82E5;&#x5B57;&#x7B26;&#x4E32;&#x9996;&#x5C3E;&#x540C;&#x65F6;&#x5B58;&#x5728;&#x5F15;&#x53F7;&#xFF0C;&#x5219;&#x5220;&#x9664;&#x9996;&#x5C3E;&#x7684;&#x5F15;&#x53F7;&#xFF1B;</li>
+<li>&#x82E5;&#x5B57;&#x7B26;&#x4E32;&#x5C3E;&#x4E0D;&#x5B58;&#x5728;&#x5F15;&#x53F7;&#xFF0C;&#x5219;&#x5220;&#x9664;&#x5B57;&#x7B26;&#x4E32;&#x9996;&#x7684;&#x5F15;&#x53F7;&#xFF1B;</li>
+<li>&#x5982;&#x679C;&#x5B57;&#x7B26;&#x4E32;&#x4E2D;&#x95F4;&#x5B58;&#x5728;&#x5F15;&#x53F7;&#xFF0C;&#x6216;&#x8005;&#x53EA;&#x5728;&#x5C3E;&#x90E8;&#x5B58;&#x5728;&#x5F15;&#x53F7;&#xFF0C;&#x5219;&#x4E0D;&#x5220;&#x9664;&#x3002;</li>
+</ol>
+<h3 id="2-fi">2. %~fI</h3>
+<p>&#x5C06; %I &#x6269;&#x5C55;&#x5230;&#x4E00;&#x4E2A;&#x5B8C;&#x5168;&#x5408;&#x683C;&#x7684;&#x8DEF;&#x5F84;&#x540D;</p>
+<p>&#x4F8B;&#xFF1A;</p>
+<p>&#x628A;test.bat&#x4FDD;&#x5B58;&#x653E;&#x5728;D:\&#xFF0C;&#x5185;&#x5BB9;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>@echo off
+FOR /F &quot;delims==&quot; %%i IN (&apos;dir /b&apos;) DO @echo %%~fi
+pause
+</code></pre><p>&#x6267;&#x884C;&#x540E;&#x663E;&#x793A;&#x5185;&#x5BB9;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>D:\test.bat
+&#x8BF7;&#x6309;&#x4EFB;&#x610F;&#x952E;&#x7EE7;&#x7EED;...
+</code></pre><p>&#x5F53;&#x6211;&#x628A;&#x4EE3;&#x7801;&#x4E2D;&#x7684;<code>%~fi</code>&#x76F4;&#x63A5;&#x6539;&#x6210;<code>%i</code></p>
+<pre><code>@echo off
+FOR /F &quot;delims==&quot; %%i IN (&apos;dir /b&apos;) DO @echo %%i
+pause
+</code></pre><p>&#x6267;&#x884C;&#x540E;&#x5C31;&#x4F1A;&#x663E;&#x793A;&#x4EE5;&#x4E0B;&#x5185;&#x5BB9;&#xFF1A;</p>
+<pre><code>test.bat
+&#x8BF7;&#x6309;&#x4EFB;&#x610F;&#x952E;&#x7EE7;&#x7EED;...
+</code></pre><p>&#x901A;&#x8FC7;&#x5BF9;&#x6BD4;&#xFF0C;&#x6211;&#x4EEC;&#x5F88;&#x5BB9;&#x6613;&#x5C31;&#x770B;&#x51FA;&#x6CA1;&#x6709;&#x8DEF;&#x5F84;&#x4E86;&#xFF0C;&#x8FD9;&#x5C31;&#x662F;&#x201C;&#x5C06; %I &#x6269;&#x5C55;&#x5230;&#x4E00;&#x4E2A;&#x5B8C;&#x5168;&#x5408;&#x683C;&#x7684;&#x8DEF;&#x5F84;&#x540D;&#x201D;&#x7684;&#x4F5C;&#x7528;&#x3002;</p>
+<p>&#x4E5F;&#x5C31;&#x662F;&#x5982;&#x679C;<code>%i</code>&#x53D8;&#x91CF;&#x7684;&#x5185;&#x5BB9;&#x662F;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x540D;&#x7684;&#x8BDD;&#xFF0C;&#x4ED6;&#x5C31;&#x4F1A;&#x628A;&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#x6240;&#x5728;&#x7684;&#x7EDD;&#x5BF9;&#x8DEF;&#x5F84;&#x6253;&#x5370;&#x51FA;&#x6765;&#xFF0C;&#x800C;&#x4E0D;&#x53EA;&#x5355;&#x5355;&#x6253;&#x5370;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x540D;&#xFF0C;&#x81EA;&#x5DF1;&#x52A8;&#x624B;&#x52A8;&#x5B9E;&#x9A8C;&#x4E0B;&#x5C31;&#x77E5;&#x9053;&#x4E86;&#x3002;</p>
+<h3 id="3-di">3. %~dI</h3>
+<p>&#x4EC5;&#x5C06; %I &#x6269;&#x5C55;&#x5230;&#x4E00;&#x4E2A;&#x9A71;&#x52A8;&#x5668;&#x53F7;</p>
+<p>&#x4F8B;&#xFF1A;</p>
+<p>&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#xFF0C;&#x653E;&#x5230;&#x684C;&#x9762;&#x6267;&#x884C;&#x3002;</p>
+<pre><code>@echo off
+FOR /F &quot;delims==&quot; %%i IN (&apos;dir /b&apos;) DO @echo %%~di
+pause
+</code></pre><p>&#x6267;&#x884C;&#x540E;CMD&#x91CC;&#x663E;&#x793A;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>C:
+&#x8BF7;&#x6309;&#x4EFB;&#x610F;&#x952E;&#x7EE7;&#x7EED;...
+</code></pre><p>&#x684C;&#x9762;&#x5C31;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;test.bat&#xFF0C;<code>%%~di</code>&#x4F5C;&#x7528;&#x662F;&#xFF0C;&#x5982;&#x679C;&#x53D8;&#x91CF;<code>%%i</code>&#x7684;&#x5185;&#x5BB9;&#x662F;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x6216;&#x8005;&#x76EE;&#x5F55;&#x540D;&#xFF0C;&#x4ED6;&#x5C31;&#x4F1A;&#x628A;&#x4ED6;&#x8FD9;&#x6587;&#x4EF6;&#x6216;&#x8005;&#x76EE;&#x5F55;&#x6240;&#x5728;&#x7684;&#x76D8;&#x7B26;&#x53F7;&#x6253;&#x5370;&#x51FA;&#x6765;&#x3002;</p>
+<h3 id="4-pi">4. %~pI</h3>
+<p>&#x4EC5;&#x5C06; %I &#x6269;&#x5C55;&#x5230;&#x4E00;&#x4E2A;&#x8DEF;&#x5F84;</p>
+<p>&#x8FD9;&#x4E2A;&#x7528;&#x6CD5;&#x548C;&#x4E0A;&#x9762;&#x4E00;&#x6837;&#xFF0C;&#x4ED6;&#x53EA;&#x6253;&#x5370;&#x8DEF;&#x5F84;&#x4E0D;&#x6253;&#x5370;&#x6587;&#x4EF6;&#x540D;&#x5B57;&#x3002;</p>
+<pre><code>@echo off
+FOR /F &quot;delims==&quot; %%i IN (&apos;dir /b&apos;) DO @echo %%~pi
+pause
+</code></pre><p>&#x81EA;&#x5DF1;&#x590D;&#x5236;&#x4EE3;&#x7801;&#x770B;&#x7ED3;&#x679C;&#xFF0C;&#x4E0B;&#x9762;&#x51E0;&#x4E2A;&#x90FD;&#x662F;&#x8FD9;&#x4E48;&#x4E2A;&#x7528;&#x6CD5;&#xFF0C;&#x4EE3;&#x7801;&#x7ED9;&#x51FA;&#x6765;&#xFF0C;&#x5927;&#x5BB6;&#x81EA;&#x5DF1;&#x770B;&#x7ED3;&#x679C;&#x5427;&#x3002;</p>
+<h3 id="5-ni">5. %~nI</h3>
+<p>&#x4EC5;&#x5C06; %I &#x6269;&#x5C55;&#x5230;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x540D;</p>
+<p>&#x53EA;&#x6253;&#x5370;&#x6587;&#x4EF6;&#x540D;&#x5B57;&#xFF1A;</p>
+<pre><code>@echo off
+FOR /F &quot;delims==&quot; %%i IN (&apos;dir /b&apos;) DO @echo %%~ni
+pause
+</code></pre><h3 id="6-xi">6. %~xI</h3>
+<p>&#x4EC5;&#x5C06; %I &#x6269;&#x5C55;&#x5230;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x6269;&#x5C55;&#x540D;</p>
+<p>&#x53EA;&#x6253;&#x5370;&#x6587;&#x4EF6;&#x7684;&#x6269;&#x5C55;&#x540D;&#xFF1A;</p>
+<pre><code>@echo off
+FOR /F &quot;delims==&quot; %%i IN (&apos;dir /b&apos;) DO @echo %%~xi
+pause
+</code></pre><h3 id="7-si">7. %~sI</h3>
+<p>&#x6269;&#x5C55;&#x7684;&#x8DEF;&#x5F84;&#x53EA;&#x542B;&#x6709;&#x77ED;&#x540D;</p>
+<p>&#x6253;&#x5370;&#x7EDD;&#x5BF9;&#x8DEF;&#x5F84;&#x77ED;&#x6587;&#x4EF6;&#x540D;&#xFF08;&#x77ED;&#x8DEF;&#x5F84;&#x540D;&#xFF09;&#xFF1A;</p>
+<pre><code>@echo off
+FOR /F &quot;delims==&quot; %%i IN (&apos;dir /b&apos;) DO @echo %%~si
+pause
+</code></pre><h3 id="8-ai">8. %~aI</h3>
+<p>&#x5C06; %I &#x6269;&#x5C55;&#x5230;&#x6587;&#x4EF6;&#x7684;&#x6587;&#x4EF6;&#x5C5E;&#x6027;</p>
+<p>&#x6253;&#x5370;&#x6587;&#x4EF6;&#x7684;&#x5C5E;&#x6027;&#xFF1A;</p>
+<pre><code>@echo off
+FOR /F &quot;delims==&quot; %%i IN (&apos;dir /b&apos;) DO @echo %%~ai
+pause
+</code></pre><h3 id="9-ti">9. %~tI</h3>
+<p>&#x5C06; %I &#x6269;&#x5C55;&#x5230;&#x6587;&#x4EF6;&#x7684;&#x65E5;&#x671F;/&#x65F6;&#x95F4;</p>
+<p>&#x6253;&#x5370;&#x6587;&#x4EF6;&#x5EFA;&#x7ACB;&#x7684;&#x65E5;&#x671F;&#xFF1A;</p>
+<pre><code>@echo off
+FOR /F &quot;delims==&quot; %%i IN (&apos;dir /b&apos;) DO @echo %%~ti
+pause
+</code></pre><h3 id="10-zi">10. %~zI</h3>
+<p>&#x5C06; %I &#x6269;&#x5C55;&#x5230;&#x6587;&#x4EF6;&#x7684;&#x5927;&#x5C0F;</p>
+<p>&#x6253;&#x5370;&#x6587;&#x4EF6;&#x7684;&#x5927;&#x5C0F;&#xFF1A;</p>
+<pre><code>@echo off
+FOR /F &quot;delims==&quot; %%i IN (&apos;dir /b&apos;) DO @echo %%~zi
+pause
+</code></pre><p>&#x8865;&#x5145;&#xFF1A;&#x4E0A;&#x9762;&#x4F8B;&#x5B50;&#x4E2D;&#x7684;&quot;delims==&quot;&#x53EF;&#x4EE5;&#x6539;&#x4E3A;&quot;delims=&quot;&#xFF0C;&#x5373;&#x4E0D;&#x8981;&#x5206;&#x9694;&#x7B26;&#x3002;</p>
+<h3 id="11-pathi">11. %~$PATH:I</h3>
+<p>&#x67E5;&#x627E;&#x5217;&#x5728;&#x8DEF;&#x5F84;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x7684;&#x76EE;&#x5F55;&#xFF0C;&#x5E76;&#x5C06; %I &#x6269;&#x5C55;&#x5230;&#x627E;&#x5230;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x5B8C;&#x5168;&#x5408;&#x683C;&#x7684;&#x540D;&#x79F0;&#x3002;&#x5982;&#x679C;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x540D;&#x672A;&#x88AB;&#x5B9A;&#x4E49;&#xFF0C;&#x6216;&#x8005;&#x6CA1;&#x6709;&#x627E;&#x5230;&#x6587;&#x4EF6;&#xFF0C;&#x6B64;&#x7EC4;&#x5408;&#x952E;&#x4F1A;&#x6269;&#x5C55;&#x5230;&#x7A7A;&#x5B57;&#x7B26;&#x4E32;</p>
+<p>&#x8FD9;&#x662F;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#xFF0C;&#x548C;&#x4E0A;&#x9762;&#x90A3;&#x4E9B;&#x90FD;&#x4E0D;&#x4E00;&#x6837;&#x3002;</p>
+<p>&#x4F8B;&#xFF1A;</p>
+<pre><code>@echo off
+FOR /F &quot;delims=&quot; %%i IN (&quot;notepad.exe&quot;) DO echo %%~$PATH:i
+pause
+</code></pre><p>&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x663E;&#x793A;&#x7ED3;&#x679C;&#x4E3A;</p>
+<pre><code>C:\Windows\System32\notepad.exe
+&#x8BF7;&#x6309;&#x4EFB;&#x610F;&#x952E;&#x7EE7;&#x7EED;...
+</code></pre><p>&#x610F;&#x601D;&#x662F;&#x5728;PATH&#x53D8;&#x91CF;&#x91CC;&#x6307;&#x5B9A;&#x7684;&#x8DEF;&#x5F84;&#x91CC;&#x641C;&#x7D22;notepad.exe&#x6587;&#x4EF6;&#xFF0C;&#x5982;&#x679C;&#x6709;notepad.exe&#x5219;&#x4F1A;&#x628A;&#x4ED6;&#x6240;&#x5728;&#x7EDD;&#x5BF9;&#x8DEF;&#x5F84;&#x6253;&#x5370;&#x51FA;&#x6765;&#xFF0C;&#x6CA1;&#x6709;&#x5C31;&#x6253;&#x5370;&#x4E00;&#x4E2A;&#x9519;&#x8BEF;&#xFF01;</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../2-FOR命令详解/1-FOR命令中的参数.html" class="navigation navigation-prev " aria-label="Previous page: 1-FOR命令中的参数"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../3-批处理中的变量/index.html" class="navigation navigation-next " aria-label="Next page: 3-批处理中的变量"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

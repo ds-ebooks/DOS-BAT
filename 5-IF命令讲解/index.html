@@ -1,0 +1,511 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>5-IF命令讲解 | DOS批处理教程</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../6-DOS编程高级技巧/index.html" />
+    
+    
+    <link rel="prev" href="../4-SET命令详解/index.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="5"
+        data-chapter-title="5-IF命令讲解"
+        data-filepath="5-IF命令讲解/README.md"
+        data-basepath=".."
+        data-revision="Fri Jul 27 2018 16:17:58 GMT+0800 (中国标准时间)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="1-批处理基础/index.html">
+            
+                
+                    <a href="../1-批处理基础/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        1-批处理基础
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="1-批处理基础/1-常用批处理内部命令简介.html">
+            
+                
+                    <a href="../1-批处理基础/1-常用批处理内部命令简介.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        1-常用批处理内部命令简介
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="1-批处理基础/2-常用特殊符号.html">
+            
+                
+                    <a href="../1-批处理基础/2-常用特殊符号.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        2-常用特殊符号
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="2-FOR命令详解/index.html">
+            
+                
+                    <a href="../2-FOR命令详解/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        2-FOR命令详解
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="2-FOR命令详解/1-FOR命令中的参数.html">
+            
+                
+                    <a href="../2-FOR命令详解/1-FOR命令中的参数.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        1-FOR命令中的参数
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="2-FOR命令详解/2-FOR命令中的变量.html">
+            
+                
+                    <a href="../2-FOR命令详解/2-FOR命令中的变量.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        2-FOR命令中的变量
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="3-批处理中的变量/index.html">
+            
+                
+                    <a href="../3-批处理中的变量/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        3-批处理中的变量
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="3-批处理中的变量/1-系统变量.html">
+            
+                
+                    <a href="../3-批处理中的变量/1-系统变量.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        1-系统变量
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="3-批处理中的变量/2-自定义变量.html">
+            
+                
+                    <a href="../3-批处理中的变量/2-自定义变量.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        2-自定义变量
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="4-SET命令详解/index.html">
+            
+                
+                    <a href="../4-SET命令详解/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        4-SET命令详解
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="5" data-path="5-IF命令讲解/index.html">
+            
+                
+                    <a href="../5-IF命令讲解/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        5-IF命令讲解
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="6-DOS编程高级技巧/index.html">
+            
+                
+                    <a href="../6-DOS编程高级技巧/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        6-DOS编程高级技巧
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >DOS批处理教程</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="5-if&#x547D;&#x4EE4;&#x8BB2;&#x89E3;">5. IF&#x547D;&#x4EE4;&#x8BB2;&#x89E3;</h1>
+<p>&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<code>if /?</code>&#x67E5;&#x770B;IF&#x7684;&#x5E2E;&#x52A9;&#x3002;</p>
+<ul>
+<li><a href="#51-errorlevel">5.1. ERRORLEVEL</a></li>
+<li><a href="#52-string">5.2. string</a></li>
+<li><a href="#53-exist">5.3. EXIST</a></li>
+<li><a href="#54-if&#x7684;&#x589E;&#x5F3A;&#x7528;&#x6CD5;">5.4. IF&#x7684;&#x589E;&#x5F3A;&#x7528;&#x6CD5;</a></li>
+</ul>
+<p>IF&#x6709;&#x4E09;&#x79CD;&#x57FA;&#x672C;&#x7684;&#x7528;&#x6CD5;&#x3002;</p>
+<p>&#x6267;&#x884C;&#x6279;&#x5904;&#x7406;&#x7A0B;&#x5E8F;&#x4E2D;&#x7684;&#x6761;&#x4EF6;&#x5904;&#x7406;&#x3002;</p>
+<pre><code>IF [NOT] ERRORLEVEL number command
+IF [NOT] string1==string2 command
+IF [NOT] EXIST filename command
+</code></pre><p><strong>NOT</strong> &#x6307;&#x5B9A;&#x53EA;&#x6709;&#x6761;&#x4EF6;&#x4E3A;false&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;Windows&#x624D;&#x5E94;&#x8BE5;&#x6267;&#x884C;&#x8BE5;&#x547D;&#x4EE4;&#x3002;</p>
+<p><strong>ERRORLEVEL number</strong> &#x5982;&#x679C;&#x6700;&#x540E;&#x8FD0;&#x884C;&#x7684;&#x7A0B;&#x5E8F;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x7B49;&#x4E8E;&#x6216;&#x5927;&#x4E8E;&#x6307;&#x5B9A;&#x6570;&#x5B57;&#x7684;&#x9000;&#x51FA;&#x4EE3;&#x7801;&#xFF0C;&#x6307;&#x5B9A;&#x6761;&#x4EF6;&#x4E3A;true&#x3002;</p>
+<p><strong>string1==string2</strong> &#x5982;&#x679C;&#x6307;&#x5B9A;&#x7684;&#x6587;&#x5B57;&#x5B57;&#x7B26;&#x4E32;&#x5339;&#x914D;&#xFF0C;&#x6307;&#x5B9A;&#x6761;&#x4EF6;&#x4E3A; true&#x3002;</p>
+<p><strong>EXIST filename</strong> &#x5982;&#x679C;&#x6307;&#x5B9A;&#x7684;&#x6587;&#x4EF6;&#x540D;&#x5B58;&#x5728;&#xFF0C;&#x6307;&#x5B9A;&#x6761;&#x4EF6;&#x4E3A; true&#x3002;</p>
+<p><strong>command</strong> &#x5982;&#x679C;&#x7B26;&#x5408;&#x6761;&#x4EF6;&#xFF0C;&#x6307;&#x5B9A;&#x8981;&#x6267;&#x884C;&#x7684;&#x547D;&#x4EE4;&#x3002;&#x5982;&#x679C;&#x6307;&#x5B9A;&#x7684;&#x6761;&#x4EF6;&#x4E3A;FALSE&#xFF0C;&#x547D;&#x4EE4;&#x540E;&#x53EF;&#x8DDF;ELSE&#x547D;&#x4EE4;&#xFF0C;&#x8BE5;&#x547D;&#x4EE4;&#x5C06;&#x5728;ELSE&#x5173;&#x952E;&#x5B57;&#x4E4B;&#x540E;&#x6267;&#x884C;&#x8BE5;&#x547D;&#x4EE4;&#x3002;</p>
+<p><strong>ELSE</strong> &#x5B50;&#x53E5;&#x5FC5;&#x987B;&#x51FA;&#x73B0;&#x5728;&#x540C;&#x4E00;&#x884C;&#x4E0A;&#x7684;IF&#x4E4B;&#x540E;&#x3002;&#x4F8B;&#x5982;&#xFF1A;</p>
+<pre><code>IF EXIST filename. (
+    del filename.
+) ELSE (
+    echo filename. missing.
+)
+</code></pre><h2 id="51-errorlevel">5.1. ERRORLEVEL</h2>
+<pre><code>IF [NOT] ERRORLEVEL number command
+</code></pre><p>&#x57FA;&#x672C;&#x4F5C;&#x7528;&#x662F;&#x5224;&#x65AD;&#x4E0A;&#x4E00;&#x6761;&#x547D;&#x4EE4;&#x6267;&#x884C;&#x7ED3;&#x679C;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x4EE5;&#x51B3;&#x5B9A;&#x4E0B;&#x4E00;&#x4E2A;&#x6B65;&#x9AA4;&#x3002;</p>
+<p>&#x4F8B;&#xFF1A;</p>
+<pre><code>@echo off
+net user
+IF %ERRORLEVEL%==0 echo net user &#x6267;&#x884C;&#x6210;&#x529F;&#x4E86;!
+pause
+</code></pre><p>&#x8FD9;&#x662F;&#x4E2A;&#x7B80;&#x5355;&#x5224;&#x65AD;&#x4E0A;&#x6761;&#x547D;&#x4EE4;&#x662F;&#x5426;&#x6267;&#x884C;&#x6210;&#x529F;&#x3002;</p>
+<p>&#x8FD9;&#x4E2A;&#x7528;&#x6CD5;&#x548C;&#x5E2E;&#x52A9;&#x91CC;&#x7684;&#x7528;&#x6CD5;&#x4E0D;&#x592A;&#x4E00;&#x6837;&#xFF0C;&#x6309;&#x7167;&#x5E2E;&#x52A9;&#x91CC;&#x7684;&#x5199;&#x6CD5;<code>IF %ERRORLEVEL% == 0 echo net user &#x6267;&#x884C;&#x6210;&#x529F;&#x4E86;!</code>&#x8FD9;&#x4E00;&#x53E5;&#x5E94;&#x8BE5;&#x5199;&#x6210;&#xFF1A;<code>IF ERRORLEVEL 0 echo net user &#x6267;&#x884C;&#x6210;&#x529F;&#x4E86;!</code>&#x3002;&#x4F46;&#x7528;&#x8FD9;&#x79CD;&#x8BED;&#x6CD5;&#xFF0C;&#x4E0D;&#x7BA1;&#x4F60;&#x7684;&#x4E0A;&#x9762;&#x7684;&#x547D;&#x4EE4;&#x662F;&#x5426;&#x6267;&#x884C;&#x6210;&#x529F;&#xFF0C;&#x90FD;&#x4F1A;&#x663E;&#x793A;&#x201C;&#x6267;&#x884C;&#x6210;&#x529F;&#x201D;&#x3002;</p>
+<p>&#x8FD9;&#x662F;<code>IF ERRORLEVEL</code>&#x8BED;&#x53E5;&#x7684;&#x7279;&#x70B9;&#xFF1A;&#x5F53;&#x4F7F;&#x7528;<code>IF ERRORLEVEL 0</code>&#x7684;&#x53E5;&#x5F0F;&#x65F6;&#xFF0C;&#x5B83;&#x7684;&#x542B;&#x4E49;&#x662F;&#xFF1A;&#x5982;&#x679C;&#x9519;&#x8BEF;&#x7801;&#x7684;&#x503C;&#x5927;&#x4E8E;&#x6216;&#x7B49;&#x4E8E;0&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5C06;&#x6267;&#x884C;&#x67D0;&#x4E2A;&#x64CD;&#x4F5C;&#xFF1B;&#x5F53;&#x4F7F;&#x7528;<code>IF %ERRORLEVEL%==0</code>&#x7684;&#x53E5;&#x5F0F;&#x65F6;&#xFF0C;&#x5B83;&#x7684;&#x542B;&#x4E49;&#x662F;&#xFF1A;&#x5982;&#x679C;&#x9519;&#x8BEF;&#x7801;&#x7684;&#x503C;&#x7B49;&#x4E8E;0&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5C06;&#x6267;&#x884C;&#x67D0;&#x4E2A;&#x64CD;&#x4F5C;&#x3002;&#x56E0;&#x4E3A;&#x8FD9;&#x4E24;&#x79CD;&#x53E5;&#x5F0F;&#x542B;&#x4E49;&#x7684;&#x5DEE;&#x522B;&#xFF0C;&#x5982;&#x679C;&#x4F7F;&#x7528;&#x524D;&#x4E00;&#x79CD;&#x53E5;&#x5F0F;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x9519;&#x8BEF;&#x7801;&#x8BED;&#x53E5;&#x7684;&#x6392;&#x5217;&#x987A;&#x5E8F;&#x662F;&#x4ECE;&#x5927;&#x5230;&#x5C0F;&#x6392;&#x5217;&#x3002;<code>%ERRORLEVEL%</code>&#x662F;&#x7CFB;&#x7EDF;&#x53D8;&#x91CF;&#xFF0C;&#x8FD4;&#x56DE;&#x4E0A;&#x6761;&#x547D;&#x4EE4;&#x7684;&#x6267;&#x884C;&#x7ED3;&#x679C;&#x4EE3;&#x7801;&#x3002;&#x201C;&#x6210;&#x529F;&#x201D;&#x7528;0&#x8868;&#x793A;&#xFF0C;&#x201C;&#x5931;&#x8D25;&#x201D;&#x7528;1&#x8868;&#x793A;&#x3002;&#x5F53;&#x7136;&#x8FD8;&#x6709;&#x5176;&#x4ED6;&#x53C2;&#x6570;&#xFF0C;&#x7528;&#x7684;&#x65F6;&#x5019;&#x57FA;&#x672C;&#x5C31;&#x8FD9;&#x4E24;&#x6570;&#x5B57;&#x3002;</p>
+<p>&#x8FD9;&#x53EA;&#x662F;&#x4E00;&#x822C;&#x7684;&#x60C5;&#x51B5;&#xFF0C;&#x5B9E;&#x9645;&#x4E0A;&#xFF0C;ERRORLEVEL&#x8FD4;&#x56DE;&#x503C;&#x53EF;&#x4EE5;&#x5728;0~255&#x4E4B;&#x95F4;&#x3002;&#x6BD4;&#x5982;&#xFF1A;xcopy&#x9ED8;&#x8BA4;&#x7684;ERRORLEVEL&#x503C;&#x5C31;&#x6709;5&#x4E2A;&#xFF0C;&#x5206;&#x522B;&#x8868;&#x793A;5&#x79CD;&#x6267;&#x884C;&#x72B6;&#x6001;&#xFF1A;</p>
+<pre><code>&#x9000;&#x51FA;&#x7801; &#x8BF4;&#x660E;
+0      &#x6587;&#x4EF6;&#x590D;&#x5236;&#x6CA1;&#x6709;&#x9519;&#x8BEF;&#x3002;
+1      if errorlevel 2 echo&#x3002;
+2      &#x7528;&#x6237;&#x6309; CTRL+C &#x7EC8;&#x6B62;&#x4E86; xcopy&#x3002;
+4      &#x51FA;&#x73B0;&#x4E86;&#x521D;&#x59CB;&#x5316;&#x9519;&#x8BEF;&#x3002;&#x6CA1;&#x6709;&#x8DB3;&#x591F;&#x7684;&#x5185;&#x5B58;&#x6216;&#x78C1;&#x76D8;&#x7A7A;&#x95F4;&#xFF0C;&#x6216;&#x547D;&#x4EE4;&#x884C;&#x4E0A;&#x8F93;&#x5165;&#x4E86;&#x65E0;&#x6548;&#x7684;&#x9A71;&#x52A8;&#x5668;&#x540D;&#x79F0;&#x6216;&#x8BED;&#x6CD5;&#x3002;
+5      &#x51FA;&#x73B0;&#x4E86;&#x78C1;&#x76D8;&#x5199;&#x5165;&#x9519;&#x8BEF;&#x3002;
+</code></pre><p>&#x8981;&#x5224;&#x65AD;&#x4E0A;&#x9762;xcopy&#x547D;&#x4EE4;&#x7684;5&#x79CD;&#x9000;&#x51FA;&#x60C5;&#x51B5;&#xFF0C;&#x5E94;&#x5199;&#x6210;&#xFF1A;</p>
+<pre><code>if errorlevel 5 echo &#x51FA;&#x73B0;&#x4E86;&#x78C1;&#x76D8;&#x5199;&#x5165;&#x9519;&#x8BEF;
+if errorlevel 4 echo &#x51FA;&#x73B0;&#x4E86;&#x521D;&#x59CB;&#x5316;&#x9519;&#x8BEF;
+if errorlevel 2 echo &#x7528;&#x6237;&#x6309; CTRL+C &#x7EC8;&#x6B62;&#x4E86; xcopy
+if errorlevel 1 echo if errorlevel 2 echo
+if errorlevel 0 echo &#x6587;&#x4EF6;&#x590D;&#x5236;&#x6CA1;&#x6709;&#x9519;&#x8BEF;&#x3002;
+</code></pre><p>&#x624D;&#x80FD;&#x6B63;&#x786E;&#x6267;&#x884C;&#x3002;</p>
+<p>&#x518D;&#x4E3E;&#x51E0;&#x4E2A;&#x4F8B;&#x5B50;&#xFF1A;</p>
+<pre><code>@echo off
+net usertest
+IF %ERRORLEVEL%==1 echo net user &#x6267;&#x884C;&#x5931;&#x8D25;&#x4E86;!
+pause
+</code></pre><p>&#x5224;&#x65AD;&#x4E0A;&#x4E00;&#x6761;&#x547D;&#x4EE4;&#x662F;&#x5426;&#x6267;&#x884C;&#x5931;&#x8D25;&#x7684;&#x3002;</p>
+<pre><code>@echo off
+set /p var=&#x968F;&#x4FBF;&#x8F93;&#x5165;&#x4E00;&#x4E2A;&#x547D;&#x4EE4;:
+%var%
+IF %ERRORLEVEL%==0 goto yes
+goto no
+:yes
+echo &quot;%var%&quot;&#x6267;&#x884C;&#x6210;&#x529F;&#x4E86;.
+pause
+:no
+echo &quot;%var%&quot;&#x6267;&#x884C;&#x5931;&#x8D25;&#x4E86;.
+pause
+</code></pre><p>&#x5224;&#x65AD;&#x4F60;&#x8F93;&#x5165;&#x7684;&#x547D;&#x4EE4;&#x662F;&#x6210;&#x529F;&#x8FD8;&#x662F;&#x5931;&#x8D25;&#x4E86;&#x3002;</p>
+<p>&#x7B80;&#x5316;&#x7248;&#xFF1A;</p>
+<pre><code>@echo off
+set /p var=&#x968F;&#x4FBF;&#x8F93;&#x5165;&#x4E00;&#x4E2A;&#x547D;&#x4EE4;:
+%var%
+IF %ERRORLEVEL%==0 (echo &quot;%var%&quot;&#x6267;&#x884C;&#x6210;&#x529F;&#x4E86;.) ELSE echo &quot;%var%&quot;&#x6267;&#x884C;&#x5931;&#x8D25;&#x4E86;.
+pause
+</code></pre><p><code>ELSE</code>&#x540E;&#x9762;&#x5199;&#x4E0A;&#x6267;&#x884C;&#x5931;&#x8D25;&#x540E;&#x7684;&#x64CD;&#x4F5C;&#x3002;</p>
+<p>&#x5F53;&#x7136;&#x6211;&#x95E8;&#x8FD8;&#x53EF;&#x4EE5;&#x628A;IF ELSE&#x8FD9;&#x6837;&#x7684;&#x8BED;&#x53E5;&#x5206;&#x6210;&#x51E0;&#x884C;&#x5199;&#x51FA;&#x6765;,&#x4F7F;&#x4ED6;&#x770B;&#x4E0A;&#x53BB;&#x597D;&#x770B;&#x70B9;&#xFF1A;</p>
+<pre><code>@echo off
+set /p var=&#x968F;&#x4FBF;&#x8F93;&#x5165;&#x4E00;&#x4E2A;&#x547D;&#x4EE4;:
+%var%
+IF %ERRORLEVEL%==0 (
+echo &quot;%var%&quot;&#x6267;&#x884C;&#x6210;&#x529F;&#x4E86;.
+) ELSE (
+echo &quot;%var%&quot;&#x6267;&#x884C;&#x5931;&#x8D25;&#x4E86;.
+)
+pause
+</code></pre><p>&#x8FD9;&#x91CC;&#x4ECB;&#x7ECD;&#x7684;&#x4E24;&#x79CD;&#x7B80;&#x5199;&#x5BF9;IF&#x7684;&#x4E09;&#x79CD;&#x8BED;&#x6CD5;&#x90FD;&#x53EF;&#x4EE5;&#x5957;&#x7528;,&#x4E0D;&#x53EA;&#x662F;&#x5728;<code>IF [NOT] ERRORLEVEL number command</code>&#x8FD9;&#x79CD;&#x8BED;&#x6CD5;&#x4E0A;&#x624D;&#x80FD;&#x4F7F;&#x7528;&#x3002;</p>
+<h2 id="52-string">5.2. string</h2>
+<pre><code>IF [NOT] string1==string2 command
+</code></pre><p>&#x7528;&#x6765;&#x6BD4;&#x8F83;&#x53D8;&#x91CF;&#x6216;&#x8005;&#x5B57;&#x7B26;&#x7684;&#x503C;&#x662F;&#x4E0D;&#x662F;&#x76F8;&#x7B49;&#x7684;&#x3002;</p>
+<p>&#x4F8B;&#xFF1A;</p>
+<pre><code>@echo off
+set /p var=&#x8BF7;&#x8F93;&#x5165;&#x7B2C;&#x4E00;&#x4E2A;&#x6BD4;&#x8F83;&#x5B57;&#x7B26;:
+set /p var2=&#x8BF7;&#x8F93;&#x5165;&#x7B2C;&#x4E8C;&#x4E2A;&#x6BD4;&#x8F83;&#x5B57;&#x7B26;:
+IF %var% == %var2% (echo &#x6211;&#x4EEC;&#x76F8;&#x7B49;) ELSE echo &#x6211;&#x4EEC;&#x4E0D;&#x76F8;&#x7B49;
+pause
+</code></pre><p>&#x4E0A;&#x9762;&#x8FD9;&#x4E2A;&#x4F8B;&#x5B50;&#x53EF;&#x4EE5;&#x5224;&#x65AD;&#x4F60;&#x8F93;&#x5165;&#x7684;&#x503C;&#x662F;&#x4E0D;&#x662F;&#x76F8;&#x7B49;&#x3002;&#x4F46;&#x662F;&#x5982;&#x679C;&#x8F93;&#x5165;&#x76F8;&#x540C;&#x7684;&#x5B57;&#x7B26;&#xFF0C;&#x800C;&#x5176;&#x4E2D;&#x4E00;&#x4E2A;&#x540E;&#x9762;&#x5E26;&#x4E00;&#x4E2A;&#x7A7A;&#x683C;&#xFF0C;&#x8FD8;&#x662F;&#x4F1A;&#x8BA4;&#x4E3A;&#x76F8;&#x7B49;&#xFF0C;&#x5982;&#x4F55;&#x8BA9;&#x6709;&#x7A7A;&#x683C;&#x7684;&#x8F93;&#x5165;&#x4E0D;&#x76F8;&#x7B49;&#x5462;&#xFF1F;&#x6211;&#x4EEC;&#x5728;&#x6BD4;&#x8F83;&#x5B57;&#x7B26;&#x4E0A;&#x52A0;&#x4E2A;&#x53CC;&#x5F15;&#x53F7;&#x5C31;&#x53EF;&#x4EE5;&#x4E86;&#xFF1A;</p>
+<pre><code>@echo off
+set /p var=&#x8BF7;&#x8F93;&#x5165;&#x7B2C;&#x4E00;&#x4E2A;&#x6BD4;&#x8F83;&#x5B57;&#x7B26;:
+set /p var2=&#x8BF7;&#x8F93;&#x5165;&#x7B2C;&#x4E8C;&#x4E2A;&#x6BD4;&#x8F83;&#x5B57;&#x7B26;:
+IF &quot;%var%&quot; == &quot;%var2%&quot; (echo &#x6211;&#x4EEC;&#x76F8;&#x7B49;) ELSE echo &#x6211;&#x4EEC;&#x4E0D;&#x76F8;&#x7B49;
+pause
+</code></pre><h2 id="53-exist">5.3. EXIST</h2>
+<pre><code>IF [NOT] EXIST filename command
+</code></pre><p>&#x5224;&#x65AD;&#x67D0;&#x4E2A;&#x6587;&#x4EF6;&#x6216;&#x8005;&#x6587;&#x4EF6;&#x5939;&#x662F;&#x5426;&#x5B58;&#x5728;&#x7684;&#x8BED;&#x6CD5;</p>
+<p>&#x4F8B;&#xFF1A;</p>
+<pre><code>@echo off
+IF EXIST &quot;c:\test&quot; (echo &#x5B58;&#x5728;&#x6587;&#x4EF6;) ELSE echo &#x4E0D;&#x5B58;&#x5728;&#x6587;&#x4EF6;
+pause
+</code></pre><p>&#x5224;&#x65AD;&#x7684;&#x6587;&#x4EF6;&#x8DEF;&#x5F84;&#x52A0;&#x5F15;&#x53F7;&#x662F;&#x4E3A;&#x4E86;&#x9632;&#x6B62;&#x8DEF;&#x5F84;&#x6709;&#x7A7A;&#x683C;&#xFF0C;&#x5982;&#x679C;&#x8DEF;&#x5F84;&#x6709;&#x7A7A;&#x683C;&#x52A0;&#x4E2A;&#x53CC;&#x5F15;&#x53F7;&#x5C31;&#x4E0D;&#x4F1A;&#x51FA;&#x73B0;&#x5224;&#x65AD;&#x51FA;&#x9519;&#x4E86;&#x3002;</p>
+<p>&#x53E6;&#x5916;&#x6211;&#x4EEC;&#x770B;&#x5230;&#x6BCF;&#x6761;IF&#x7528;&#x6CD5;&#x540E;&#x90FD;&#x6709;&#x4E2A;<code>[NOT]</code>&#x8BED;&#x53E5;&#xFF0C;&#x52A0;&#x4E0A;&#x7684;&#x8BDD;&#xFF0C;&#x8868;&#x793A;&#x5148;&#x5224;&#x65AD;&#x6211;&#x4EEC;&#x7684;&#x6761;&#x4EF6;&#x4E0D;&#x6210;&#x7ACB;&#x65F6;&#xFF0C;&#x6CA1;&#x52A0;&#x4ED6;&#x9ED8;&#x8BA4;&#x662F;&#x5148;&#x5224;&#x65AD;&#x6761;&#x4EF6;&#x6210;&#x7ACB;&#x65F6;&#xFF0C;&#x6BD4;&#x5982;&#x4E0A;&#x9762;&#x8FD9;&#x4E2A;&#x4F8B;&#x6539;&#x4E3A;&#xFF1A;</p>
+<pre><code>@echo off
+IF NOT EXIST &quot;c:\test&quot; (echo &#x5B58;&#x5728;&#x6587;&#x4EF6;) ELSE echo &#x4E0D;&#x5B58;&#x5728;&#x6587;&#x4EF6;
+pause
+</code></pre><p>&#x6267;&#x884C;&#x540E;&#xFF0C;&#x5982;&#x679C;C&#x76D8;&#x4E0B;&#x6CA1;&#x6709;test,&#x4ED6;&#x8FD8;&#x662F;&#x4F1A;&#x663E;&#x793A;<code>&#x5B58;&#x5728;&#x6587;&#x4EF6;</code>&#xFF0C;&#x8FD9;&#x5C31;&#x8868;&#x793A;&#x52A0;&#x4E86;NOT&#x5C31;
+&#x4F1A;&#x5148;&#x5224;&#x65AD;&#x6761;&#x4EF6;&#x5931;&#x8D25;&#x7684;&#x60C5;&#x51B5;&#x3002;&#x4E0A;&#x9762;&#x4F8B;&#x5B50;&#x6539;&#x6210;&#x8FD9;&#x6837;&#x5C31;&#x6B63;&#x786E;&#x4E86;&#xFF1A;</p>
+<pre><code>@echo off
+IF NOT EXIST &quot;c:\test&quot; (echo &#x4E0D;&#x5B58;&#x5728;&#x6587;&#x4EF6;) ELSE echo &#x5B58;&#x5728;&#x6587;&#x4EF6;
+pause
+</code></pre><h2 id="54-if&#x7684;&#x589E;&#x5F3A;&#x7528;&#x6CD5;">5.4. IF&#x7684;&#x589E;&#x5F3A;&#x7528;&#x6CD5;</h2>
+<pre><code>IF [/I] string1 compare-op string2 command
+IF CMDEXTVERSION number command
+IF DEFINED variable command
+</code></pre><p>&#x540E;&#x9762;&#x4E24;&#x4E2A;&#x7528;&#x6CD5;&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x4EEC;&#x548C;&#x4E0A;&#x9762;&#x7684;&#x7528;&#x6CD5;&#x8868;&#x793A;&#x7684;&#x610F;&#x4E49;&#x57FA;&#x672C;&#x4E00;&#x6837;&#xFF0C;&#x53EA;&#x7B80;&#x5355;&#x8BF4;&#x8BF4;&#x3002;</p>
+<p><code>IF [/I] string1 compare-op string2 command</code>&#x8FD9;&#x4E2A;&#x8BED;&#x53E5;&#x5728;&#x5224;&#x65AD;&#x5B57;&#x7B26;&#x65F6;&#x4E0D;&#x533A;&#x5206;&#x5B57;&#x7B26;&#x7684;&#x5927;&#x5C0F;&#x5199;&#x3002;</p>
+<p><code>CMDEXTVERSION</code>&#x6761;&#x4EF6;&#x7684;&#x4F5C;&#x7528;&#x8DDF;ERRORLEVEL&#x7684;&#x4E00;&#x6837;&#xFF0C;&#x9664;&#x4E86;&#x5B83;&#x662F;&#x5728;&#x8DDF;&#x4E0E;&#x547D;&#x4EE4;&#x6269;&#x5C55;&#x6709;&#x5173;&#x8054;&#x7684;&#x5185;&#x90E8;&#x7248;&#x672C;&#x53F7;&#x6BD4;&#x8F83;&#x3002;&#x7B2C;&#x4E00;&#x4E2A;&#x7248;&#x672C;&#x662F;1&#x3002;&#x6BCF;&#x6B21;&#x5BF9;&#x547D;&#x4EE4;&#x6269;&#x5C55;&#x6709;&#x76F8;&#x5F53;&#x5927;&#x7684;&#x589E;&#x5F3A;&#x65F6;&#xFF0C;&#x7248;&#x672C;&#x53F7;&#x4F1A;&#x589E;&#x52A0;&#x4E00;&#x4E2A;&#x3002;&#x547D;&#x4EE4;&#x6269;&#x5C55;&#x88AB;&#x505C;&#x7528;&#x65F6;&#xFF0C;CMDEXTVERSION&#x6761;&#x4EF6;&#x4E0D;&#x662F;&#x771F;&#x7684;&#x3002;</p>
+<p>&#x5982;&#x679C;&#x5DF2;&#x5B9A;&#x4E49;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#xFF0C;<code>DEFINED</code>&#x6761;&#x4EF6;&#x7684;&#x4F5C;&#x7528;&#x8DDF;EXIST&#x7684;&#x4E00;&#x6837;&#xFF0C;&#x9664;&#x4E86;&#x5B83;&#x53D6;&#x5F97;&#x4E00;&#x4E2A;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#xFF0C;&#x8FD4;&#x56DE;&#x7684;&#x7ED3;&#x679C;&#x662F;true&#x3002;</p>
+<p>&#x4F8B;&#xFF1A;</p>
+<pre><code>@echo off
+if a == A (echo &#x6211;&#x4EEC;&#x76F8;&#x7B49;) ELSE echo &#x6211;&#x4EEC;&#x4E0D;&#x76F8;&#x7B49;
+pause
+</code></pre><p>&#x6267;&#x884C;&#x540E;&#x663E;&#x793A;&#xFF1A;</p>
+<pre><code>&#x6211;&#x4EEC;&#x4E0D;&#x76F8;&#x7B49;
+&#x8BF7;&#x6309;&#x4EFB;&#x610F;&#x952E;&#x7EE7;&#x7EED;...
+</code></pre><p>&#x52A0;&#x4E0A;<code>/I</code>&#x4E0D;&#x533A;&#x5206;&#x5927;&#x5C0F;&#x5199;&#x5C31;&#x76F8;&#x7B49;&#x4E86;&#x3002;</p>
+<pre><code>@echo off
+if /i a == A (echo &#x6211;&#x4EEC;&#x76F8;&#x7B49;) ELSE echo &#x6211;&#x4EEC;&#x4E0D;&#x76F8;&#x7B49;
+pause
+</code></pre><p>&#x4E0B;&#x9762;&#x662F;&#x4E00;&#x4E9B;&#x7528;&#x6765;&#x5224;&#x65AD;&#x6570;&#x5B57;&#x7684;&#x7B26;&#x53F7;&#xFF1A;</p>
+<pre><code>EQU - &#x7B49;&#x4E8E;
+NEQ - &#x4E0D;&#x7B49;&#x4E8E;
+LSS - &#x5C0F;&#x4E8E;
+LEQ - &#x5C0F;&#x4E8E;&#x6216;&#x7B49;&#x4E8E;
+GTR - &#x5927;&#x4E8E;
+GEQ - &#x5927;&#x4E8E;&#x6216;&#x7B49;&#x4E8E;
+</code></pre><p>&#x4F8B;&#xFF1A;</p>
+<pre><code>@echo off
+set /p var=&#x8BF7;&#x8F93;&#x5165;&#x4E00;&#x4E2A;&#x6570;&#x5B57;:
+if %var% LEQ 4 (echo &#x6211;&#x5C0F;&#x4E8E;&#x7B49;&#x4E8E;4) ELSE echo &#x6211;&#x4E0D;&#x5C0F;&#x4E8E;&#x7B49;&#x4E8E;4
+pause
+</code></pre>
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../4-SET命令详解/index.html" class="navigation navigation-prev " aria-label="Previous page: 4-SET命令详解"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../6-DOS编程高级技巧/index.html" class="navigation navigation-next " aria-label="Next page: 6-DOS编程高级技巧"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
